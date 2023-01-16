@@ -1,0 +1,114 @@
+:root{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body{
+    background-color: #FAFAFA;
+}
+
+
+.wrapper{
+   max-width: 1440px;
+    padding: 1.5rem 2rem;   
+    margin: 0 auto;
+}
+
+nav{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.logo{
+    font-weight: 700;
+}
+
+.themeToggle-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+}
+
+.themeToggle-btn-icon{
+    height: 1rem;
+    margin-right: .5rem;
+}
+
+.input-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start ;
+}
+
+.input-text-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.input-text-wrapper{
+    padding: 1rem 2rem;
+}
+
+.input-text-icon{
+    width: 25px;
+    margin-right: 1rem;
+}
+
+.search-input{
+    border: none;
+    padding: .5rem 1rem;
+}
+
+.dropdown-menu{
+    padding: .875rem 1.5rem;
+    margin: 1rem 0;
+}
+
+.errorMessage{
+    font-size: 40px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.country-img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.country-el{
+    max-width:264px;
+    background-color: #fff;
+    padding-bottom: 2.875rem;
+
+}
+
+.country-name{
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+span{
+    font-weight: 700;
+}
+
+.country-population,
+.country-region{
+    margin-bottom: .5rem;
+}
+
+
+.country-wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 74px;
+    max-width: 1280px;
+}
+
+
+
